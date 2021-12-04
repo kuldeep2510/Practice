@@ -44,8 +44,8 @@ SinglyLL::InsertFirst(int no)
       }
       
       
-      
 }
+
 SinglyLL::InsertLast(int no)
 {
       
