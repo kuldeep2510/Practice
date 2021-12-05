@@ -14,5 +14,7 @@ class Var
             System.out.println(no);
             System.out.println(initial);
             System.out.println(name);
+            
+            System.out.println(name.length());
       }
 }
