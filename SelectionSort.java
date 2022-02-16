@@ -35,7 +35,8 @@ class SelectionSort
               }
               int temp=Arr[i];
               Arr[i]=Arr[smallest];
-              Arr[smallest]=temp;        
+              Arr[smallest]=temp;
+                      
           }
             
             

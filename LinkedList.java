@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class LinkedList
 {
       private Node head;
@@ -85,6 +87,17 @@ class LinkedList
             obj.Display();
             obj.Reverse();
             obj.Display();
+
+            Scanner sobj=new Scanner(System.in);
+
+            System.out.println("Enter String");
+            String scan=sobj.nextLine();
+
+            System.out.println("string is:"+scan);
+
+
+
+            sobj.close();
 
       }
 
