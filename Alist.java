@@ -26,7 +26,7 @@ class Alist
            }
            for(int k=0;k<Arr.length;k++)
            {
-                  System.out.print(Arr[k]+" ");
+                  System.out.print(Arr[k]+"😘💕 ");
            }
            
       }
