@@ -2,16 +2,21 @@ import java.lang.*;
 
 abstract class Parent
 {
+
       public Parent()
       {
-            System.out.println("Constructor of parrant class");
+
+            System.out.println("Constructor of parrant class"+no);
 
       }
+     
       public void hello()
       {
             System.out.println("Hello");
       }
+      
       abstract public void fun();
+      
 } 
 abstract class Derived extends Parent
 {
@@ -21,12 +26,14 @@ abstract class Derived extends Parent
            System.out.println("Constructor of derived class");
      } 
    //abstract public void fun();
+   
     
 
      
 }
 class Derived2 extends Derived
 {
+      
       public void fun()
       {
          System.out.println("Abstract class method");
@@ -38,6 +45,8 @@ class Abstract
       {
          Derived2 dobj=new Derived2();
          dobj.fun();
+         
+         
 
       }
 }
